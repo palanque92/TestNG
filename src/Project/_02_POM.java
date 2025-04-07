@@ -1,14 +1,9 @@
 package Project;
 
-import Gun06._02_PlaceOrderElements;
-import Utility.BaseDriverParameters;
-import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import org.testng.asserts.SoftAssert;
 
 public class _02_POM extends BaseDriverProject {
     @Test(priority = 1)
